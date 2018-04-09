@@ -1,7 +1,7 @@
 import React, { Component } from 'react'; // eslint-disable-next-line 
 import axios from 'axios';
 import '/home/ubuntu/workspace/my-app/src/App.css';
-import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend}  from '/home/ubuntu/workspace/my-app/node_modules/recharts';
+import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend}  from '/node_modules/recharts';
 import BreadCrumb from '../components/BreadCrumb.js';
 
 class StockVisualizer extends Component {
